@@ -7,3 +7,7 @@ Feature: Test Facebook Application
   Scenario: validate passoword functionality
     When user enter password
     And date of birth
+
+  Scenario: validate birth month and birth year
+    When user enter birth month
+    And user enter birth year
