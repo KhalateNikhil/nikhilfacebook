@@ -14,3 +14,6 @@ Feature: Test Facebook Application
 
   Scenario: validate gender functionality
     When user select proper gender
+
+  Scenario: validate already have an account functionality
+    When user click on already have an account link
