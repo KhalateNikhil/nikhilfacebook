@@ -11,3 +11,6 @@ Feature: Test Facebook Application
   Scenario: validate birth month and birth year
     When user enter birth month
     And user enter birth year
+
+  Scenario: validate gender functionality
+    When user select proper gender
